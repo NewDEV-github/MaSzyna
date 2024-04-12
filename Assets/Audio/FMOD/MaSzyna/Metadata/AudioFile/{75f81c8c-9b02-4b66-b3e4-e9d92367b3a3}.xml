@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{75f81c8c-9b02-4b66-b3e4-e9d92367b3a3}">
+		<property name="assetPath">
+			<value>20786_203e_button_reset_ca_shp_2_of.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.1946874999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{871428f9-d9c6-42cb-9921-f61991f13b4f}</destination>
+		</relationship>
+	</object>
+</objects>

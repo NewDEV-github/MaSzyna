@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d36f0a80-ac59-4181-a828-3bc5ebb3eb31}">
+		<property name="assetPath">
+			<value>brake-100.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>4.6431519274376418</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{871428f9-d9c6-42cb-9921-f61991f13b4f}</destination>
+		</relationship>
+	</object>
+</objects>

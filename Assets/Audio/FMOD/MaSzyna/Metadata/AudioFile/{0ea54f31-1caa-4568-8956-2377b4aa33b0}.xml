@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0ea54f31-1caa-4568-8956-2377b4aa33b0}">
+		<property name="assetPath">
+			<value>20786kolo_408w_1.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.59943310657596371</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{871428f9-d9c6-42cb-9921-f61991f13b4f}</destination>
+		</relationship>
+	</object>
+</objects>

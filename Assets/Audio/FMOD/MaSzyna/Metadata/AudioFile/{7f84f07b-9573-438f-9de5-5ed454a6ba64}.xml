@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7f84f07b-9573-438f-9de5-5ed454a6ba64}">
+		<property name="assetPath">
+			<value>20786__eu44_pneumatic_relay.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>11.0249996</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.0437188208616779</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{871428f9-d9c6-42cb-9921-f61991f13b4f}</destination>
+		</relationship>
+	</object>
+</objects>

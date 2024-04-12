@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{60a67ba2-4efb-4ae7-8d1e-92c5c54147f9}">
+		<property name="assetPath">
+			<value>!horn-st44-start-2.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>22.0499992</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.45278911564625851</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{871428f9-d9c6-42cb-9921-f61991f13b4f}</destination>
+		</relationship>
+	</object>
+</objects>

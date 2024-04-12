@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8eb7db2f-ee41-4301-8b62-a5b6fdd10d26}">
+		<property name="assetPath">
+			<value>697_ep05-nast-5.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>22.0499992</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.060226757369614511</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{871428f9-d9c6-42cb-9921-f61991f13b4f}</destination>
+		</relationship>
+	</object>
+</objects>

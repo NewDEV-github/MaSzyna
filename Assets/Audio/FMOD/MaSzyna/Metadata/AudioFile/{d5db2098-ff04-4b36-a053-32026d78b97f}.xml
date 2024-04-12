@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d5db2098-ff04-4b36-a053-32026d78b97f}">
+		<property name="assetPath">
+			<value>et40_converter_start.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>11.0249996</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.4141496598639456</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{871428f9-d9c6-42cb-9921-f61991f13b4f}</destination>
+		</relationship>
+	</object>
+</objects>

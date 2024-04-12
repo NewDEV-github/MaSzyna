@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{5ec03d4b-bd25-4d98-bd09-4d277eea55ed}">
+		<property name="name">
+			<value>36WEa-FanState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1183ecb4-db55-4614-b5ef-e50835c00537}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a35df675-f387-40be-a454-35f73cfd3b96}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a35df675-f387-40be-a454-35f73cfd3b96}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Start</value>
+			<value>Working</value>
+			<value>Stop</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="velocity">
+			<value>1.3000000715255737</value>
+		</property>
+	</object>
+</objects>

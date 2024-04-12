@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a0a08998-0462-4dbe-ab3a-c19c7e1bd9dd}">
+		<property name="assetPath">
+			<value>ashtry_open.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>8</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.66187499999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{871428f9-d9c6-42cb-9921-f61991f13b4f}</destination>
+		</relationship>
+	</object>
+</objects>

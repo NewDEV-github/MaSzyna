@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ee7d37e6-9405-4a28-a0ef-3f18676ff262}">
+		<property name="assetPath">
+			<value>cinquecento_horn-end.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>32</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.36112499999999997</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{871428f9-d9c6-42cb-9921-f61991f13b4f}</destination>
+		</relationship>
+	</object>
+</objects>

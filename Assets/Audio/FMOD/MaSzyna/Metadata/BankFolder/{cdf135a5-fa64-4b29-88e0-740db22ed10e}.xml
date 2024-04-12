@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="BankFolder" id="{cdf135a5-fa64-4b29-88e0-740db22ed10e}">
+		<property name="name">
+			<value>EMUs</value>
+		</property>
+		<relationship name="folder">
+			<destination>{126d6493-0d2a-4178-98ac-62318fc183c1}</destination>
+		</relationship>
+	</object>
+</objects>

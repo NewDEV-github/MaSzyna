@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{771b9541-0b41-4b9a-b9ec-d571686a637a}">
+		<property name="assetPath">
+			<value>et40_compressor_start.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>8</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>6.7956250000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{871428f9-d9c6-42cb-9921-f61991f13b4f}</destination>
+		</relationship>
+	</object>
+</objects>
