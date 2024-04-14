@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{dbeaff0f-2d2c-4acb-8e43-5c6f998626c2}">
 		<property name="name">
-			<value>36WEa-MOtorSpeed</value>
+			<value>36WEa-MotorSpeed</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1183ecb4-db55-4614-b5ef-e50835c00537}</destination>
