@@ -10,12 +10,23 @@ namespace Assets.Scripts
 {
     internal class Util
     {
-        public static bool ParseBool(string str)
+        /// <summary>
+        /// Method for converting MaSzyna's multivalued floats to C# bool
+        /// </summary>
+        /// <param name="value">Input value</param>
+        /// <returns>Converted bool</returns>
+        public static bool ParseBool(string value)
         {
-            if (str == "1" || str == "yes" || str == "true" || str == "True")
+            if (value == "1" || value == "yes" || value == "true" || value == "True")
                 return true;
             else return false;
         }
+        /// <summary>
+        /// Method for converting non-float 0-255 values to float and get Color
+        /// </summary>
+        /// <param name="tokens">List of file tokens</param>
+        /// <param name="iToken">Iteration of iToken</param>
+        /// <returns>Converted Color</returns>
         public static Color ParseColor(ref List<string> tokens, ref int iToken)
         {
             float r, g, b;
