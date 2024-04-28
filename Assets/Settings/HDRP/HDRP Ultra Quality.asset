@@ -36,7 +36,7 @@ MonoBehaviour:
     colorBufferFormat: 48
     supportCustomPass: 1
     customBufferFormat: 48
-    supportedLitShaderMode: 1
+    supportedLitShaderMode: 3
     planarReflectionResolution:
       m_Values: 000100000004000000080000
       m_SchemaId:
@@ -227,7 +227,7 @@ MonoBehaviour:
       - 50
       - 50
       - 50
-      RTGIFullResolution: 000001
+      RTGIFullResolution: 010101
       RTGIClampValue:
       - 0.5
       - 0.8

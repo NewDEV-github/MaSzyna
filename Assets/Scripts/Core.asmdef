@@ -1,16 +1,16 @@
 {
-    "name": "Trains",
+    "name": "Core",
     "rootNamespace": "",
     "references": [
-        "GUID:853a3bc0b4096924296d2fc7ca4f4e1b",
-        "GUID:0c752da273b17c547ae705acf0f2adf2"
+        "GUID:0c752da273b17c547ae705acf0f2adf2",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
-    "autoReferenced": false,
+    "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false

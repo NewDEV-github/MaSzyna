@@ -18,7 +18,7 @@ MonoBehaviour:
     m_Value:
     - {fileID: 11400000, guid: 404820c4cf36ad944862fa59c56064f0, type: 2}
     - {fileID: 11400000, guid: 2384dbf2c1c420f45a792fbc315fbfb1, type: 2}
-    - {fileID: 11400000, guid: 879ffae44eefa4412bb327928f1a96dd, type: 2}
+    - {fileID: 0}
 --- !u!114 &-7089757308646879465
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -39,10 +39,10 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0.5
   maximumVelocity:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 200
   minimumVelocity:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 2
   cameraMotionBlur:
     m_OverrideState: 0
@@ -107,10 +107,10 @@ MonoBehaviour:
     m_Value: 0
   rayBias:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.361
   thicknessScale:
     m_OverrideState: 1
-    m_Value: 0.15
+    m_Value: 0.422
   m_SampleCount:
     m_OverrideState: 1
     m_Value: 64
@@ -501,7 +501,7 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 3
   rayTracing:
     m_OverrideState: 1
     m_Value: 1
@@ -509,7 +509,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0.5
   directLightingStrength:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   radius:
     m_OverrideState: 1
@@ -527,7 +527,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.1
   layerMask:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value:
       serializedVersion: 2
       m_Bits: 4294967295
@@ -560,7 +560,7 @@ MonoBehaviour:
     m_Value: 20
   m_SampleCount:
     m_OverrideState: 1
-    m_Value: 8
+    m_Value: 22
   m_Denoise:
     m_OverrideState: 1
     m_Value: 1
@@ -614,7 +614,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 2
   acesPreset:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 3
   fallbackMode:
     m_OverrideState: 0
@@ -655,29 +655,29 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 150
   directionalTransmissionMultiplier:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   cascadeShadowSplitCount:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 4
   cascadeShadowSplit0:
-    m_OverrideState: 0
-    m_Value: 0.05
+    m_OverrideState: 1
+    m_Value: 0.07653366
   cascadeShadowSplit1:
-    m_OverrideState: 0
-    m_Value: 0.15
+    m_OverrideState: 1
+    m_Value: 0.20911327
   cascadeShadowSplit2:
-    m_OverrideState: 0
-    m_Value: 0.3
+    m_OverrideState: 1
+    m_Value: 0.42643678
   cascadeShadowBorder0:
     m_OverrideState: 1
-    m_Value: 0.06905067
+    m_Value: 1
   cascadeShadowBorder1:
     m_OverrideState: 1
-    m_Value: 0.05086228
+    m_Value: 0.47070697
   cascadeShadowBorder2:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.59291995
   cascadeShadowBorder3:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.11206896

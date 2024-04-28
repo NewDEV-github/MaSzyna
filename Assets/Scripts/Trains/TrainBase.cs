@@ -1,4 +1,5 @@
-﻿using FMOD.Studio;
+﻿using Core.Audio;
+using FMOD.Studio;
 using FMODUnity;
 using UnityEngine;
 
@@ -12,7 +13,13 @@ namespace Trains
 	public class TrainBase : MonoBehaviour
 	{
 		public EventReference speedEvent;
+		public EventReference pneumaticBrakeEvent;
+		public EventReference electroPneumaticBrakeEvent;
+		public EventReference electroDynamicBrakeEvent;
 		private EventInstance _speedInstance;
+		private EventInstance _pneumaticBrakeInstance;
+		private EventInstance _electroPneumaticBrakeInstance;
+		private EventInstance _electroDynamicBrakeInstance;
 
 		/**
 		 * The acceleration of the train.
@@ -480,17 +487,19 @@ namespace Trains
 		protected float OutletCrossSection = 0f;
 
 		/**
-		 * Possibility of filling the main line depends on the position of the travel switch:
+		 * The possibility of filling the main line depends on the position of the travel switch:
 		 * true - (default for combustion or combustion-electric vehicles!) - dependency
 		 * false - (default for other traction vehicles!) - no dependency
 		 */
 		protected bool ReleaserPowerPosLock = false;
 
+		private readonly AudioController _audioController = new AudioController();
 		public TrainBase()
 		{
-			if (!speedEvent.IsNull) return;
-
-			_speedInstance = RuntimeManager.CreateInstance(speedEvent);
+			_speedInstance = _audioController.AssertEvent(speedEvent);
+			_electroDynamicBrakeInstance = _audioController.AssertEvent(electroDynamicBrakeEvent);
+			_electroPneumaticBrakeInstance = _audioController.AssertEvent(electroPneumaticBrakeEvent);
+			_pneumaticBrakeInstance = _audioController.AssertEvent(pneumaticBrakeEvent);
 		}
 
 		public void Move()
@@ -663,5 +672,6 @@ namespace Trains
 			 */
 			Coupler2
 		}
+
 	}
 }
