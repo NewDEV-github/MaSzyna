@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 89557f6c37bddbe42a0c4765c6e967dd
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: 982003b98d85bf34399b40c524a7ec1c
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 4f5089070d49af242ab06003b54f8758,
       type: 2}

@@ -6,46 +6,47 @@ using UnityEditor;
 
 namespace FMODUnity
 {
-    public class PlatformGroup : Platform
-    {
-        [SerializeField]
-        private string displayName;
+	public class PlatformGroup : Platform
+	{
+		[SerializeField] private string displayName;
 
-        [SerializeField]
-        private Legacy.Platform legacyIdentifier;
+		[SerializeField] private Legacy.Platform legacyIdentifier;
 
-        internal override string DisplayName { get { return displayName; } }
-        internal override void DeclareRuntimePlatforms(Settings settings) { }
+		internal override string DisplayName => displayName;
+		internal override void DeclareRuntimePlatforms(Settings settings)
+		{
+		}
 #if UNITY_EDITOR
-        internal override IEnumerable<BuildTarget> GetBuildTargets()
-        {
-            yield break;
-        }
+		internal override IEnumerable<BuildTarget> GetBuildTargets()
+		{
+			yield break;
+		}
 
-        internal override Legacy.Platform LegacyIdentifier { get { return legacyIdentifier; } }
+		internal override Legacy.Platform LegacyIdentifier => legacyIdentifier;
 
-        internal static PlatformGroup Create(string displayName, Legacy.Platform legacyIdentifier)
-        {
-            PlatformGroup group = CreateInstance<PlatformGroup>();
-            group.Identifier = GUID.Generate().ToString();
-            group.displayName = displayName;
-            group.legacyIdentifier = legacyIdentifier;
-            group.AffirmProperties();
+		internal static PlatformGroup Create(string displayName, Legacy.Platform legacyIdentifier)
+		{
+			var group = CreateInstance<PlatformGroup>();
+			group.Identifier = GUID.Generate().ToString();
+			group.displayName = displayName;
+			group.legacyIdentifier = legacyIdentifier;
+			group.AffirmProperties();
 
-            return group;
-        }
+			return group;
+		}
 
-        protected override BinaryAssetFolderInfo GetBinaryAssetFolder(BuildTarget buildTarget)
-        {
-            return null;
-        }
+		protected override BinaryAssetFolderInfo GetBinaryAssetFolder(BuildTarget buildTarget)
+		{
+			return null;
+		}
 
-        protected override IEnumerable<FileRecord> GetBinaryFiles(BuildTarget buildTarget, bool allVariants, string suffix)
-        {
-            yield break;
-        }
+		protected override IEnumerable<FileRecord> GetBinaryFiles(BuildTarget buildTarget, bool allVariants,
+						string suffix)
+		{
+			yield break;
+		}
 
-        internal override OutputType[] ValidOutputTypes { get { return null; } }
+		internal override OutputType[] ValidOutputTypes => null;
 #endif
-    }
+	}
 }

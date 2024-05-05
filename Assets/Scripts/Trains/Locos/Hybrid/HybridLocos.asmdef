@@ -1,0 +1,16 @@
+{
+  "name": "HybridLocos",
+  "rootNamespace": "",
+  "references": [
+    "GUID:38fa2c5531903514f9623e45e685c563"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

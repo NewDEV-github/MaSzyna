@@ -1,0 +1,17 @@
+{
+    "name": "Trains",
+    "rootNamespace": "",
+    "references": [
+        "GUID:853a3bc0b4096924296d2fc7ca4f4e1b",
+        "GUID:0c752da273b17c547ae705acf0f2adf2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
