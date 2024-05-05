@@ -18,7 +18,7 @@ namespace Core.Settings
         private readonly string[] _anisotropicFilteringOptions = {"Disable", "Enable", "Force enable"};
         private readonly string[] _antialiasingOptions = {"Off", "2x", "4x", "8x"};
         private readonly string[] _shadowQualityOptions = {"Disable", "Hard Only", "Hard and soft"};
-        private bool isUsingPredefinedGraphicSetting = false;
+        private bool _isUsingPredefinedGraphicSetting = false;
         private void Start()
         {
 	        qualityDropdown.options.Clear();
@@ -67,7 +67,7 @@ namespace Core.Settings
         }
         public void SetQualityPreset(int qualityIndex)
         {
-	        isUsingPredefinedGraphicSetting = true;
+	        _isUsingPredefinedGraphicSetting = true;
             Debug.Log("Quality set to " + qualityIndex);
             PlayerPrefs.SetString("QualityPreset", qualityIndex.ToString());
             PlayerPrefs.Save();
@@ -82,7 +82,7 @@ namespace Core.Settings
         private void LoadCustomQualitySettings()
 		{
 			Debug.Log("Shadow quality: " + PlayerPrefs.GetInt("CustomShadowQuality", 0));
-			isUsingPredefinedGraphicSetting = false;
+			_isUsingPredefinedGraphicSetting = false;
 			realtimeReflectionProbesToggle.isOn = PlayerPrefs.GetInt("CustomRealTimeReflectionProbes", 0) == 1;
 			ChangeDropdownValue(shadowQualityDropdown, PlayerPrefs.GetInt("CustomShadowQuality", 0));
 			ChangeDropdownValue(antialiasingDropdown, PlayerPrefs.GetInt("CustomAntialiasing", 0));
